@@ -5,7 +5,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        {/* <h1>lets get started with whatsapp clone yess</h1> */}
 
         <div className="app_body">
           <Sidebar />
