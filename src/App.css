@@ -5,16 +5,16 @@
 .App{
   display: grid;
   place-items: center;
-  background-color: #dadbd3;
+  background-color: #414141;
   height: 100vh;
 
 }
 
 .app_body{
-  margin-top: -50px;
+  margin-top: 0;
   display: flex;
   background-color: #ededed;
   width: 95vw;
-  height: 90vh;
+  height: 95vh;
   box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
 }
