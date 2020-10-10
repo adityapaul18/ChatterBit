@@ -1,12 +1,58 @@
 .sidebar{
-    flex: 0.25;
+    flex: 1;
+    direction: column;
+    flex: 0.35;
+    background-color: #1f1f1f;
 }
 
+.sidebar_search{
+    display: flex;
+    align-items: center;
+    background-color: #2e2e2e;
+    height: 40px;
+    padding: 10px;
+}
+
+.sidebar_search1{
+    display: flex;
+    align-items: center;
+    background-color: #dfdddd;
+    height: 40px;
+    padding: 10px;
+}
 .sidebar_header{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    border-right: 1px solid lightgray;
+    padding: 21px;
+    border-right: 1px solid rgb(0, 0, 0);
+    /* border-bottom:  1px solid rgb(0, 0, 0); */
+    background-color: rgb(255, 196, 0);
+}
+.sidebar_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar_searchconainer > .MuiSvgIcon-root{
+    color:black;
+    padding: 10px;
+}
+.sidebar_searchconainer > input{
+    border: none;
+    margin-left: 10px;
+    width: 60%;
+    background-color: rgb(194, 194, 194);
+
+}
+.sidebar_searchconainer{
+    display: flex;
+    align-items: center;
+    background-color: rgb(194, 194, 194);
+    height:35px;
+    width: 100%;
+    border-radius: 20px;
+
 }
 
 .sidebar_headerRight{
@@ -17,3 +63,16 @@
 
 }
 
+.sidebar_headerRight > .MuiSvgIcon-root{
+    color:black;
+    margin-right: 2vw;
+    font-size: 24px !important;
+}
+
+.sidebar_chat{
+    flex: 1;
+    height:79%;
+    background-color: #1f1f1f;
+    overflow-y: scroll;
+    scrollbar-width: none;  /* Firefox */
+}
