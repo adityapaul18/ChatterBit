@@ -1,3 +1,5 @@
+in above app, upload firebase config file in Firebase.js and set up firestore db to get this app working your pc, else it wont work
+ 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 See a live demo of the app via this link :  https://chatterbit-c159c.web.app/
